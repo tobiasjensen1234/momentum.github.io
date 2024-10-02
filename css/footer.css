@@ -1,0 +1,59 @@
+.footerContainer {
+    margin-top: 70px;
+    background: #141727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.footerTitle {
+    font-size: 20px;
+    background: -webkit-linear-gradient(1.2turn, red, black, white);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+    width: 190px;
+    font-family: bold;
+    text-align: center;
+}
+
+.footerDescription {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a2a2a2;
+    font-size: 13px;
+}
+
+.footerCopyrightText {
+    font-family: Nexa;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.discordJoin {
+    filter: saturate(0) brightness(10);
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.developersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    font-family: Nexa;
+}
+
+@media only screen and (max-width: 600px) {
+.footerDescription {
+    max-width: 90%;
+}
+    
+}

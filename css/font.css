@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Main;
+    src: url("FlindersTrial-Bold.ttf");
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("FlindersTrial-Black.ttf");
+}
+
+@font-face {
+    font-family: Nexa;
+    src: url("Nexa-Heavy.ttf");
+}

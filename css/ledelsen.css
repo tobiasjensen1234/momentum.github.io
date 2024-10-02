@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.discordLedelseContainer {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #262745;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-image: url("../images/assets/backgroundpattern2.webp");
+    background-size: 100%;
+    background-position: center;
+    filter: drop-shadow(0px 0px 35px #ee040441);
+}
+
+.discordDevContainer {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #262745;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-image: url("../images/assets/backgroundpattern2.webp");
+    background-size: 100%;
+    background-position: center;
+    filter: drop-shadow(0px 0px 35px #ee040441);
+}
+
+.discordLedelseBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Nexa;
+}
+
+.discordLedelseProfilePic {
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+.discordLedelseProfilePic {
+    height: 100px;
+}
+
+.discordLedelseRole {
+    color: white;
+    font-size: 12px;
+    margin-top: -15px;
+    background-image: url("../images/assets/backgroundpattern4.webp");
+    background-size: 100%;
+    background-position: center;    width: fit-content;
+    height: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(1.5turn, red, black, white);
+}
+
+.discordDeveloperContainer {
+    margin-top: -10px;
+    text-align: center;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+}
+.discordDeveloperBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footertext {
+    font-family: bold;
+    background: -webkit-linear-gradient(1.2turn, red, black, white);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.developerText {
+    background: #4e4e4e;
+    color: white;
+    width: fit-content;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
